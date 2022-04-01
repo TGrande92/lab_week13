@@ -6,5 +6,9 @@ divselect.forEach(element => element.addEventListener('click', (evt) => {
     copyto.insertAdjacentHTML("beforeend", copyselect);
 }))
 
+const resetButton = document.querySelector('button')
 
+resetButton.addEventListener('click', (evt) => {
+    copyto.innerHTML = '';
+})
 
