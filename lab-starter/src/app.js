@@ -8,15 +8,17 @@ divselect.forEach((element) =>
   })
 );
 
+
 const clear_but = document.querySelector("button");
 
 clear_but.addEventListener("click", (evt) => {
   copyto.innerHTML = "";
 });
 
-const body = document.querySelector('body')
-body.style.backgroundColor = '#003B49';
-document.querySelector('body').style.color = '#D6FF4E';
+// const body = document.querySelector('body')
+// body.style.backgroundColor = '#003B49';
+// document.querySelector('body').style.color = '#D6FF4E';
 
-clear_but.style.backgroundColor = '#e7e7e7'
-
+// clear_but.style.backgroundColor = '#e7e7e7'
+// const ptag = document.querySelector('p')
+// body.style.display('flexbox')
